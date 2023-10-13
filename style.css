@@ -1,0 +1,56 @@
+body {
+    /*  Background Color */
+    background-color: #2a2525;
+    /*  Text Color */
+    color: white;
+    /*  Text Font */
+    font-family: 'Roboto', sans-serif;
+    /*  Text Weight */
+    font-weight: bold;
+    /*  Text Size */
+    font-size: 20px;
+}
+.nav-links{
+    /*  Text Top Right Alignment */
+    text-align: right;
+
+}
+.page-logo{
+    /*  Text Center Alignment */
+    text-align: center;
+    /*  Text Size */
+    font-size: 100px;
+    /*  Text Color */
+    color: #4285F4;
+    /*  Text Font */
+    font-family: 'Roboto', sans-serif;
+    /*  Text Weight */
+    font-weight: bold;
+    /*  Text Top Margin */
+    margin-top: 0%;
+}
+.text-box {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    /* Center Text Box */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* place text box in middle */
+    margin-top: 0%;
+    /* Round Corners */
+    border-radius: 10px;
+}
+.submit-button {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    /* Center Button */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Round Corners */
+    border-radius: 10px;
+
+}
