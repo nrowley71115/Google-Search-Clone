@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= stylesheet href="style.css">
     <title>Google Advanced Search</title>
 </head>
 <body>
-    <a href="index.html">Google Search</a>
-    <a href="image.html">Google Image</a>
+    <div class="nav-links">
+        <a href="index.html">Google Search</a>
+        <a href="image.html">Google Image</a>
+    </div>
     advanced search
+    <div>
+        <form>
+            Find Pages with...
+            All these words:
+            <input type="text" name="all-words">
+            this exact word or phrase:
+            <input type="text" name="exact-words">
+            any of these words:
+            <input type="text" name="any-words">
+            none of these words:
+            <input type="text" name="none-words">
+            numbers ranging from:
+            <input type="text" name="from-number">
+            to
+            <input type="text" name="to-number">
+
+            <!-- Submit Button -->
+            <input type="submit" value="Advanced Search">
+        </form>
+    </div>
 </body>
 </html>
