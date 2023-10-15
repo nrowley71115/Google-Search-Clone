@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= stylesheet href="style.css">
+    <link rel= stylesheet href="style_advanced.css">
     <title>Google Advanced Search</title>
 </head>
 <body>
@@ -11,25 +11,52 @@
         <a href="index.html">Google Search</a>
         <a href="image.html">Google Image</a>
     </div>
-    advanced search
-    <div>
-        <form>
-            Find Pages with...
-            All these words:
-            <input type="text" name="all-words">
-            this exact word or phrase:
-            <input type="text" name="exact-words">
-            any of these words:
-            <input type="text" name="any-words">
-            none of these words:
-            <input type="text" name="none-words">
-            numbers ranging from:
-            <input type="text" name="from-number">
-            to
-            <input type="text" name="to-number">
-
-            <!-- Submit Button -->
-            <input type="submit" value="Advanced Search">
+    <div class="title">Advanced Search</div>
+    <div class="container">
+        <form action="https://www.google.com/search">
+            <table>
+                <tr>
+                    <th>
+                        Find pages with...
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        All these words:
+                    </td>
+                    <td>
+                        <input class="text-box" type="text" name="as_q" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        This exact word or phrase:
+                    </td>
+                    <td>
+                        <input class="text-box" type="text" name="as_epq" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Any of these words:
+                    </td>
+                    <td>
+                        <input class="text-box" type="text" name="as_oq" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        None of these words:
+                    </td>
+                    <td>
+                        <input class="text-box" type="text" name="as_eq" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input id="submit-button" type="submit" value="Advanced Search"></td>
+                </tr>
+            </table>
         </form>
     </div>
 </body>

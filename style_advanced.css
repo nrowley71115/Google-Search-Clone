@@ -1,15 +1,17 @@
 body {
     /*  Background Color */
-    background-color: #2a2525;
+    background-color: white;
 }
 .nav-links{
     /*  Text Top Right Alignment */
     text-align: right;
+    /* Exterior Margin */
+    margin: 10px;
 }
 
 .nav-links a{
     /*  Text Color */
-    color: white;
+    color: gray;
     /*  Text Font */
     font-family: 'Roboto', sans-serif;
     /*  Text Weight */
@@ -35,26 +37,18 @@ body {
     text-decoration: underline;
 }
 
-.page-logo{
-    /*  Text Center Alignment */
-    text-align: center;
-    /*  Text Size */
-    font-size: 74px;
-    /*  Text Color */
-    color: white;
-    /*  Text Font */
+.title {
+    /* font */
     font-family: 'Roboto', sans-serif;
-    /*  Text Weight */
-    font-weight: bold;
-    /*  Text Top Margin */
-    margin-top: 10%;
-    /*  Text Bottom Margin */
-    margin-bottom: 20px;
+    color: rgb(215, 0, 0);
+    font-size: 24px;
+    /* alignment */
+    margin: 20px;
 }
 
 table {
     /* alignment */
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     /* border */
     border-collapse: collapse;
@@ -66,57 +60,66 @@ table {
     padding: 20px;
 }
 
+th {
+    /* font */
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    /* alignment */
+    text-align: left;
+    /* padding */
+    padding: 10px;
+}
+
 td {
+    /* font */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    /* alignment */
     padding: 10px;
 }
 
 .text-box {
-    width: 500px;
-    height: 30px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    /* Center Text Box */
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    /* place text box in middle */
-    margin-top: 0%;
-    /* Round Corners */
-    border-radius: 20px;
+    width: 400px;
+    height: 25px;
+    font-size: 12px;
     /* Background Color */
-    background-color: #2a2525;
-    /* Internal Padding */
-    padding-left: 20px;
+    background-color: white;
     /* cursor color */
-    caret-color: white;
+    caret-color: rgb(167, 167, 167);
     /* Border styling */
-    border-color: gray;
-    border-style: solid;
+    border: 1px solid rgb(167, 167, 167);
+    /* border color blue on focus */
+    outline-color: #4d90fe;
+    /* padding */
+    padding-left: 5px;
 }
-.submit-button {
-    width: 150px;
-    height: 45px;
+
+#submit-button {
+    width: 120px;
+    height: 30px;
     /* Font */
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: white;
     /* Center Button */
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0px;
     display: block;
     /* Round Corners */
-    border-radius: 10px;
+    border-radius: 2px;
     /* Padding */
-    padding: 10px;
+    padding: 5px;
     /* Background Color */
-    background-color: #413b3b;
+    background-color: #4d90fe;
     /* Border styling */
     border-style: none;
 }
 
-.submit-button:hover {
+#submit-button:hover {
     /* Border styling */
     border-style: solid;
-    border-color: gray;
+    border-color: #3777de;
 }
